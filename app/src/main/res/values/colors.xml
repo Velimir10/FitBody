@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#F06292</color>
+    <color name="colorPrimaryDark">#EC407A</color>#F06292
     <color name="colorAccent">#FF4081</color>
+    <color name="listView">#FFFFFF</color>
+    <color name="tabTextColor">#FFFFFF</color>
+    <color name="tabSelectedColor">#4f4f4f</color>
+    <color name="tabIndicatorColor">#4f4f4f</color>
 
 </resources>

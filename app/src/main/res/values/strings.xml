@@ -5,7 +5,6 @@
     <string name="body_type">Body Type</string>
 
 
-
     <string name="idealWeight_description">The Ideal Weight Calculator computes the ideal body weight as well as healthy body weight range based on height,
         gender, and age.
     </string>
@@ -14,10 +13,9 @@
     <string name="height_hint">height(cm)</string>
     <string name="male">male</string>
     <string name="female">female</string>
-    
+
     <string name="calorie_description">The Calorie Calculator can be used to estimate the calories you need to maintain your weight constant.</string>
     <string name="weight_hint">weight(kg)</string>
-
 
 
     <string name="bodytype_description">Find out your body shape (female only). For most common female body shapes are Apple, Banana, Pear and Hourglass.</string>
@@ -25,8 +23,8 @@
     <string name="bust_hint">bust(cm)</string>
     <string name="waist_hint">waist(cm)</string>
     <string name="hip_hint">hip(cm)</string>
-    
-    
+
+
     <string-array name="spinner_strings">
         <item>Basal metabolic Rate (BMR)</item>
         <item>Sedentary - little or no exercise</item>
@@ -44,4 +42,13 @@
         <item>1.725</item>
         <item>1.9</item>
     </string-array>
+
+    <string-array name="listViewFragments">
+        <item>Ideal Weight</item>
+        <item>Calorie</item>
+        <item>Body Type</item>
+    </string-array>
+    <string name="drawer_close">Drawer close</string>
+    <string name="drawer_open">Drawer open</string>
+
 </resources>

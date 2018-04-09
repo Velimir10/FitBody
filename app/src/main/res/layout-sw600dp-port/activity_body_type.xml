@@ -17,8 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/body"
-        tools:ignore="ContentDescription"/>
+        app:srcCompat="@drawable/body" />
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -41,37 +40,42 @@
         android:layout_marginBottom="10dp"
       android:text="@string/fill_data" />
 
-        <EditText
-            android:id="@+id/editTextBust"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/bust_hint"
-            android:imeOptions="actionNext"
-            android:inputType="number" />
+    <EditText
+        android:id="@+id/editTextBust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="@string/bust_hint"
+        android:imeOptions="actionNext"
+        android:inputType="number" />
 
-        <EditText
-            android:id="@+id/editTextWaist"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/waist_hint"
-            android:imeOptions="actionNext"
-            android:inputType="number" />
+    <EditText
+        android:id="@+id/editTextWaist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="@string/waist_hint"
+        android:imeOptions="actionNext"
+        android:inputType="number" />
 
-        <EditText
-            android:id="@+id/editTextHip"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/hip_hint"
-            android:imeOptions="actionDone"
-            android:inputType="number" />
+    <EditText
+        android:id="@+id/editTextHip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="@string/hip_hint"
+        android:imeOptions="actionDone"
+        android:inputType="number" />
 
-        <Button
-            android:id="@+id/button_bodyType"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/button_calculate" />
+    <Button
+        android:id="@+id/button_bodyType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:onClick="onBodyTypeCalClick"
+        android:text="@string/button_calculate" />
     </LinearLayout>
 </LinearLayout>
